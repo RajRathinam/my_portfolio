@@ -20,9 +20,9 @@ instagram:'https://github.com/RajRathinam'
 <p className='text-2xl'>{config.subtitle}</p></h1>
 
 <div className='flex py-10'>
-  <a target='_blank' href={config.social.linkedIn} className='pr-5 hover:text-white'><AiOutlineLinkedin size={40}/></a>
-  <a target='_blank' href={config.social.gitHub} className='pr-5 hover:text-white'><FaGithub size={40}/></a>
-  <a target='_blank' href={config.social.instagram} className='hover:text-white'><FaInstagram size={40}/></a>
+  <a target='_blank' rel="noreferrer" href={config.social.linkedIn} className='pr-5 hover:text-white'><AiOutlineLinkedin size={40}/></a>
+  <a target='_blank' rel="noreferrer" href={config.social.gitHub} className='pr-5 hover:text-white'><FaGithub size={40}/></a>
+  <a target='_blank' rel="noreferrer" href={config.social.instagram} className='hover:text-white'><FaInstagram size={40}/></a>
 </div>
 </div>
 
