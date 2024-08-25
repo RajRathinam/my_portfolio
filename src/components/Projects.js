@@ -41,7 +41,7 @@ project: [
                     config.project.map((project,index) => (
                        
                         <div key={index} className='flex-1 relative'>
-                        <img className='h-[300px] w-[500px]' src={project.image} />
+                        <img className='h-[300px] w-[500px]' src={project.image} alt='projects_image'/>
                         <div className='project-desc flex flex-col items-center'>
                             <p className='text-center px-5 py-5'>{project.description}</p>
                             <a target='_blank' href={project.link} className='btn w-[102px]'>Show it</a>

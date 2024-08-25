@@ -27,7 +27,7 @@ instagram:'https://github.com/RajRathinam'
 </div>
 
   
-<img src="./png2.png" className='md:w-1/3'/>
+<img src="./png2.png" className='md:w-1/3' alt='hero_image'/>
   </section>
   )
 }

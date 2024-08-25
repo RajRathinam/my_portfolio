@@ -19,7 +19,7 @@ const config ={
     
     </div>
     <div className='flex justify-center md:w-1/2 py-5'>
-        <img className=' w-[300px] h-[500px]' src="./resume.jpg" />
+        <img className=' w-[300px] h-[500px]' src="./resume.jpg" alt='resume_image'/>
     </div>
    </section>
   )
