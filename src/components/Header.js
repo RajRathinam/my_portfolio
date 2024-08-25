@@ -7,7 +7,7 @@ const [toggleMenu,setToggleMenu] = useState(false);
 
   return (
    <header className='flex justify-between py-2 px-5 bg-primary text-xl fixed top-0 left-0 right-0 z-10'>
-    <a className='font-bold text-black font-hero-font' href="#">Raj Rathinam</a>
+    <a className='font-bold text-black font-hero-font' href="/">Raj Rathinam</a>
 <nav className='hidden md:block'>
 <ul className='flex text-white'>
         <li><a href="/">Home</a></li>
