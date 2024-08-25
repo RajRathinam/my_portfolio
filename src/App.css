@@ -13,7 +13,7 @@ header ul li {
   background: #3b045f;
 }
 .mobile-nav{
-  @apply fixed top-10 left-0 bg-gray-900 w-full h-1/3;
+  @apply fixed top-10 left-0 bg-gray-900 w-full h-[150px];
 
 }
 .mobile-nav  li{
